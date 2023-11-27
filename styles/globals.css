@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .bg-skin-globalBlue {
+    /* Define your custom styles here */
+    background-color: #5865F2; /* Replace with the actual color */
+
+  }
+  .bg-skin-hover_blue{
+    background-color: #5865F2;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
@@ -19,6 +29,7 @@ html {
   :root {
     --bg: #1b1b1b;
     --green: #7ee787;
+    --blue: #5865F2;
     --card_bg: #282e36;
     --btn-hover-green: #1bcd2a;
   }
@@ -26,6 +37,9 @@ html {
   @layer components {
     .btn-green {
       @apply sm:text-sm text-xs xl:text-base cursor-pointer bg-skin-globalGreen border border-[#7EE787] text-black rounded px-4 py-2 hover:bg-skin-hover_green transition-all font-semibold font-dmSans active:scale-95;
+    }
+    .btn-blue{
+      @apply sm:text-sm text-xs xl:text-base cursor-pointer bg-skin-globalGreen border border-[#7EE787] text-black rounded px-4 py-2 hover:bg-skin-hover_blue transition-all font-semibold font-dmSans active:scale-95;
     }
     .btn-outline {
       @apply sm:text-sm text-xs xl:text-base cursor-pointer border border-[#7EE787] text-white rounded px-4 py-2  hover:bg-skin-globalGreen hover:text-black transition-all font-semibold font-dmSans active:scale-95;

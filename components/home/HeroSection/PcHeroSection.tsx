@@ -5,6 +5,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Box } from '@mui/material';
 import { useSpring } from '@react-spring/web';
 
+
 export function HeroSection() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const pointerInteracting = useRef<null | number>(null);
@@ -82,7 +83,7 @@ export function HeroSection() {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="hidden lg:flex text-sm xl:text-base items-center space-x-2 btn-green">
+              <button className="hidden lg:flex text-sm xl:text-base items-center space-x-2 btn-blue">
                 <svg
                   width="18"
                   height="18"

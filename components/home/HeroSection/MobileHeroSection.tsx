@@ -71,7 +71,7 @@ export function HeroSection() {
               target="_blank"
               href={'https://discord.gg/zrVMjGW8sB'}
             >
-              <button className="hidden lg:flex text-sm xl:text-base items-center space-x-2 cursor-pointer border-2 border-[#7EE787] bg-[#7EE787] text-black rounded-md px-4 py-2 transition-all font-semibold active:scale-95">
+              <button className="hidden lg:flex text-sm xl:text-base items-center space-x-2 cursor-pointer border-2 border-[#5865F2] bg-[#5865F2] text-black rounded-md px-4 py-2 transition-all font-semibold active:scale-95">
                 <svg
                   width="18"
                   height="18"
